@@ -36,6 +36,44 @@ header {
   }
 }
 
+.social-media-list {
+  display: table;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 5px 10px 5px 0;
+    &:last-of-type { margin-right: 0 }
+    a {
+      display: block;
+      padding: 10px 12px;
+      border: 1px solid #eee;
+      &:hover { border-color: #eee }
+    }
+  }
+}
+
+.pagination {
+  margin-bottom: 10px;
+  @extend .social-media-list;
+  li {
+    list-style-type: none;
+    a, div {
+      min-width: 41px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    div {
+      display: block;
+      padding: 10px;
+
+      &.pager-edge {
+        color: #eee;
+        border: 1px dashed;
+      }
+    }
+  }
+}
+
 footer {
   margin-top: 20px;
   text-align: center;

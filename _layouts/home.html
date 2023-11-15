@@ -1,5 +1,6 @@
 ---
 layout: base
+title: RPG Explorations
 ---
 <div class="home">
   {%- if page.title -%}
@@ -8,7 +9,6 @@ layout: base
 
   {{ content }}
 
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -16,26 +16,26 @@ layout: base
   {% endif %}
 
 
+  {%- assign date_format = "%b %-d, %Y" -%}
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
+    <div class="posts-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+        <span class="post-meta">Posted on {{ post.date | date: date_format }}</span>
+        <div class="post-content">
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- else -%}
+            {{ post.content }}
+          {%- endif -%}
+        </div>
       {%- endfor -%}
-    </ul>
+    </div>
 
     {% if site.paginate %}
       <div class="pager">
@@ -54,7 +54,5 @@ layout: base
         </ul>
       </div>
     {%- endif %}
-
   {%- endif -%}
-
 </div>
