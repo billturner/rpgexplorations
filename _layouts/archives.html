@@ -1,0 +1,16 @@
+---
+layout: base
+title: RPG Explorations
+---
+
+{% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+<ul>
+  {%- if posts.size > 0 -%}
+    <li></li>
+  {%- endif -%}
+</ul>
