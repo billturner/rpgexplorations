@@ -16,7 +16,7 @@ My initial descriptions started out as if I was playing the game (as omnipotent 
 
 Here is an in-progress photo of my initial hex crawl map, as well as the design of the keep itself (which still hasn't been fully exposed):
 
-![The beginning of my hex crawl map, and interiors of a keep (for Dungeon23)](https://rpgexplorations.files.wordpress.com/2023/01/dungeon23-2-weeks.jpg)
+![The beginning of my hex crawl map, and interiors of a keep (for Dungeon23)]({{ site.baseurl }}/assets/images/2023/01/dungeon23-2-weeks.jpg)
 
 The beginning of the hex crawl map, and the interior floors of a keep
 
