@@ -30,7 +30,7 @@ I'll also include links to where some of the less-well known games can be found.
   - [Solitary Defilement](https://1d105.itch.io/solitary-defilement) solo rules, by 1d10+5
 - Old School Essentials
   - [Classic Fantasy Rules Tome](https://necroticgnome.com/products/old-school-essentials-rules-tome), by Gavin Norman
-  - [Holy Mountain Shaker](https://necroticgnome.com/products/holy-mountain-shaker), by Luka Rejec
+  - [Holy Mountain Shaker](https://necroticgnome.com/products/holy-mountain-shaker) supplement, by Luka Rejec
 - Dungeons & Dragons 5E
   - Essentials Kit
   - [DM Yourself](https://www.drivethrurpg.com/product/331912/DM-Yourself--solo-roleplay-for-5e-DD-and-OSR-adventures) & [DM Yourselves](https://www.drivethrurpg.com/product/385435/DM-Yourselves--solo-and-GMless-roleplay-for-5e-DD-and-OSR-adventures)
@@ -38,6 +38,8 @@ I'll also include links to where some of the less-well known games can be found.
 - [Alone Among the Stars](https://noroadhome.itch.io/alone-among-the-stars), by Takuma Okada
 - [Anamnesis](https://blinkingbirchgames.itch.io/anamnesis), by Sam Leigh
 - [Blades in the Dark](https://evilhat.com/product/blades-in-the-dark/), by John Harper
+- [Brindlewood Bay](https://www.brindlewoodbay.com/brindlewood-bay.html), by Jason Cordova
+  - Nephews in Peril scenario book
 - [Cairn](https://cairnrpg.com/), by Yochai Gal
 - [Delve](https://www.blackwellwriter.com/en-us/products/delve-a-solo-map-drawing-game), by Anna Blackwell
 - [Electric Bastionland](https://chrismcdee.itch.io/electric-bastionland) and [Into the Odd](https://freeleaguepublishing.com/en/games/into-the-odd/), by Chris  McDowall

@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -36,6 +37,11 @@ header {
   }
 }
 
+.post-content {
+  img {
+    max-width: 100%;
+  }
+}
 .social-media-list {
   display: table;
   margin: 0 auto;

@@ -1,12 +1,15 @@
 <header>
-  <img src="/assets/header-image.png" alt="{{ site.title | escape }} header image (old man at desk looking through a book)" width="100%" />
+  <a href="{{ site.url }}" title="Return to the {{ site.title }} home page">
+    <img src="/assets/header-image.png" alt="{{ site.title | escape }} header image (old man at desk looking through a book)" width="100%" />
+  </a>
   <h1>{{ site.title }}</h1>
 </header>
 
 <div class="menu">
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About This Blog</a></li>
-    <li><a href="/rpg-list/">RPGs in Collection</a></li>
+    <li><a href="/" title="Return to the {{ site.title }} home page">Home</a></li>
+    <li><a href="/about/" title="View the {{ site.title }} about page">About This Blog</a></li>
+    <li><a href="/archive/" title="View the {{ site.title }} full archive page">Archive</a></li>
+    <li><a href="/rpg-list/" title="View the list of RPGs I've collected so far">RPGs in Collection</a></li>
   </ul>
 </div>
